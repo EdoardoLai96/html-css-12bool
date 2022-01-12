@@ -33,7 +33,15 @@
     justify-content: center;
     color: white;
     display: flex;
-    padding: 0 5px;
+}
+
+[class*="col-"]{
+    background-color: rgb(66, 116, 255);
+    margin: 1px;
+}
+
+.nest{
+    padding: 0 10px;
 }
 
 
